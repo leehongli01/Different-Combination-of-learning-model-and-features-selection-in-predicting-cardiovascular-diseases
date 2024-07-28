@@ -8,22 +8,22 @@ This is just a exploration of learning models and features selection in predicti
 <b>Naive Bayes (Gaussian)</b>: A probabilistic classifier based on Bayes' theorem, 
 suitable for binary classification tasks. It assumes independence between features.
 
-AdaBoost Classifier: An ensemble technique that combines multiple weak 
+<b>AdaBoost Classifier</b>: An ensemble technique that combines multiple weak 
 classifiers to form a strong classifier by focusing on incorrectly classified instances. 
 It iteratively adjusts the weights of these instances to improve performance.  
 
-Logistic Regression: A statistical model that uses a logistic function to model a 
+<b>Logistic Regression</b>: A statistical model that uses a logistic function to model a 
 binary dependent variable. It predicts the probability of the presence of the disease.  
 
-Decision Tree Classifier: A non-parametric model that splits the data into subsets 
+<b>Decision Tree Classifier</b>: A non-parametric model that splits the data into subsets 
 based on feature values, creating a tree structure that represents the decisions and 
 their possible outcomes. It is trained using PCA-transformed features.  
  
-Extra Trees Classifier: Like Random Forest, this ensemble method constructs 
+<b>Extra Trees Classifier</b>: Like Random Forest, this ensemble method constructs 
 multiple decision trees but differs in that it selects cut points randomly for each 
 candidate feature. It is also trained using RFE-selected features.  
 
-Recurrent Neural Network (RNN): which is built to capture temporal 
+<b>Recurrent Neural Network (RNN)<b/>: which is built to capture temporal 
 dependencies in the dataset. The RNN model consists of a SimpleRNN layer with 
 ReLU activation, followed by a Dense layer with a sigmoid activation function to 
 output the probability of the binary class. The model is compiled using the Adam 
