@@ -23,7 +23,7 @@ their possible outcomes. It is trained using PCA-transformed features.
 multiple decision trees but differs in that it selects cut points randomly for each 
 candidate feature. It is also trained using RFE-selected features.  
 
-<b>Recurrent Neural Network (RNN)<b/>: which is built to capture temporal 
+<b>Recurrent Neural Network (RNN)</b>: which is built to capture temporal 
 dependencies in the dataset. The RNN model consists of a SimpleRNN layer with 
 ReLU activation, followed by a Dense layer with a sigmoid activation function to 
 output the probability of the binary class. The model is compiled using the Adam 
